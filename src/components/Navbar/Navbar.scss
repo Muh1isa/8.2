@@ -1,0 +1,45 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4d95ea;
+    padding: 20px 50px;
+
+    &__logo {
+        flex: 1;
+    }
+
+    &__list {
+        display: flex;
+        gap: 40px;
+        flex: 6;
+        &-item-link {
+            color: #fff;
+        }
+    }
+
+    &__box {
+        display: flex;  
+        gap: 20px;
+        button {
+            font-size: 12px;
+            font-weight: 500;
+            padding: 10px 15px;
+            border-radius: 16px;
+        }
+        &-lang {
+            border: 1px solid #767676;
+            background-color: white;
+        }
+        &-login {
+            color: #236482;
+            background-color: white;
+            border: 1px solid #236482;
+        }
+        &-signup {
+            color: #191919;
+            background-color: #ffc929;
+            border: none;
+        }
+    }
+}
